@@ -1,0 +1,18 @@
+<html>
+<body>
+Length:<input type="text" id="first" value="">
+<br>
+Breadth:<input type="text" id="second" value="">
+<br>
+<input type="submit" value="submit" onclick="area()"/>
+<p id="demo"></p>
+<script>
+function area(){
+    var l=document.getElementById("first").value
+    var b=document.getElementById("second").value
+    a=l*b
+    document.getElementById("demo").innerHTML=a
+    }
+</script>
+</body>
+</html>

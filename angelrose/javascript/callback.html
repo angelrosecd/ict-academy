@@ -1,0 +1,19 @@
+<html>
+<head>
+<script>
+ var callback=function(mycallback){
+     setTimeout(function(){
+         mycallback();
+     },5000);
+
+ };
+ document.write("first")
+ document.write("<br>second is displayed")
+ callback(function(){
+     document.write("this is callback function")
+ })
+ document.write("<br>last is displayed")
+</script>
+
+</head>
+</html>

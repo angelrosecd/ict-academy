@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css" media="all">
+body{
+    background-color:green; 
+ text-align:center;}
+    
+ </style>
+ 
+</head>
+<body>
+<h1>welcome to my website</h1>
+<h3>who are you!</h3>
+<input type="text" id="mytext" name="fname" value=""/>
+<br><br>
+<input type="submit" value="click me" onclick="validateform()"/>
+<div id="demo"></div>
+ <script>
+ function validateform(){
+
+    var x=document.getElementById('mytext').value
+     if (x==""){
+         alert("name must be filled out");
+         return false;
+
+
+     }
+     else{
+         document.getElementById('demo').innerHTML=x
+     }
+ }
+</script>
+</body>
+</html>

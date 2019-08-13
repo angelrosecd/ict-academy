@@ -1,0 +1,25 @@
+body{
+    font:bold,16px,arial,helivetica,sans-serifs;
+    margin:20px;
+    padding:10px;
+    background-color:seagreen;
+
+}
+.container{  width: 80%;
+    margin:auto;
+    overflow: hidden;
+}
+.highlight{
+    font:bold;
+    color:red
+}
+ul{
+    padding:0px
+    margin:0px;
+
+}
+header {
+   background color:blueviolet;
+    padding top:20px;
+    min-height: 70px;
+}

@@ -1,0 +1,21 @@
+<html>
+<body>
+<p id="demo">click for adult age</p>
+<p id="aa"></p>
+
+<button type="button" onclick="myfunction()">click here</button>
+<script>
+var ages=[14,12,54,10]
+function checkadult(age){
+    return age>18
+
+}
+function myfunction(){
+      
+    document.getElementById("aa").innerHTML=ages.some(checkadult)
+     document.getElementById("demo").innerHTML=ages.filter(checkadult)
+}
+</script>
+
+</body>
+</html>

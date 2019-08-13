@@ -1,0 +1,2 @@
+Ajax  update a webpage withput reloading the page
+request a data from a server after the page has loaded
